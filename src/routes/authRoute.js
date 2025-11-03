@@ -8,8 +8,8 @@ import {
   userLogout,
   userRegister,
   verifyEmail,
-} from "../../controllers/authController.js";
-import { verifyJWT } from "../../middleware/authMiddleware.js";
+} from "../controllers/authController.js";
+import { verifyJWT } from "../middleware/authMiddleware.js";
 const router = Router();
 
 router.post("/register", userRegister);

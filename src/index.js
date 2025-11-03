@@ -1,9 +1,9 @@
 import dotenv from "dotenv"
 import express from "express";
 import cookie from "cookie-parser"
-import connectDB from "../db/dbConnect.js";
-import errorHandler from "../middleware/errorMiddleware.js";
-import authRoute from "../routes/authRoute.js";
+import connectDB from "./db/dbConnect.js";
+import errorHandler from "./middleware/errorMiddleware.js";
+import authRoute from "./routes/authRoute.js";
 import cors from "cors"
 
 dotenv.config({
